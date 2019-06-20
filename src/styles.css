@@ -1,12 +1,25 @@
+#RETURN{
+text-align: center
+}
+
+.custom-control-label{
+   color: #456b8e
+}
+#LABEL_3, #LABEL_8, #LABEL_12, #LABEL_16, #LABEL_21, #DIV_17, #DIV_4,#LABEL_25,#LABEL_40,#LABEL_34,#DIV_4, #DIV_17, #DIV_41,#LABEL_29{
+    color: #8f9ca8;
+}
+#form{
+    background-color: #93838f14;
+}
 #HEADER_DIV{
-    margin-top: 50px;
+    margin-top: 70px !important;
     max-width: 60% !important;
     margin-left: 20%;
     margin-right: 20%;
 }
 #Paragraph{
     text-align: justify;
-    font-size: 15px
+    font-size: 15px;
 }
 #DIV_4,#DIV_17,#DIV_41{
     float: right;
@@ -82,6 +95,16 @@ font-size: 14px;
         max-width:430px !important;
         margin-left: 0px !important;
     } */
+}
+@media all and(max-width:376px){
+    #HEADER_DIV{
+        max-width: 99.99% !important;
+    }
+    #Paragraph{
+        max-width:90% !important;
+        margin-left: 10% !important;
+        margin-right: 10% !important;
+    }
 }
 @media all and (max-width:450px){
 
